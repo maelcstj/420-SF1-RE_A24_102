@@ -15,13 +15,17 @@
             resultatEntier = resultatEntier / 3;
 
             double resultatVirgule = 10.123 + 20.234; //double : nombre a virgule
-            char unCaractere = 'A';
+            char unCaractere = '1';
             string chaineDeCaractere = "Allo!";
 
             Console.WriteLine(resultatEntier);
             Console.WriteLine(resultatVirgule);
             Console.WriteLine(unCaractere);
-            Console.WriteLine(chaineDeCaractere);
+            Console.WriteLine("Ma chaine est : " + chaineDeCaractere);
+
+            // Exercice 1
+            // Calculer aire et permitre d'un triangle
+            // Programmer ici
         }
     }
 }
