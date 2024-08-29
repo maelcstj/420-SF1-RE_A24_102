@@ -1,4 +1,10 @@
-﻿namespace Cours02_GitSyntaxe
+﻿/*
+ * Auteur : Mael Perreault
+ * Date : 22 aout 2024
+ * Cours 02 - Git et la syntaxe de base
+ */
+
+namespace Cours02_GitSyntaxe
 {
     internal class Program
     {
