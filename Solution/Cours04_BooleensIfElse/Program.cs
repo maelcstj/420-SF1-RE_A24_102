@@ -16,8 +16,8 @@ namespace Cours04_BooleensIfElse
             // >, <, >=, <=, ==, !=
             // true  (valeur 1 ou autres valeur : -1, -100)
             // false (valeur 0)
-            bool estVrai = 5 > 0; // true
-            bool estFaux = 5 < 0; // false
+            bool estVrai = 5 > 0; // true (tout le reste)
+            bool estFaux = 5 < 0; // false (0)
 
             Console.WriteLine(estVrai);
             Console.WriteLine(estFaux);
