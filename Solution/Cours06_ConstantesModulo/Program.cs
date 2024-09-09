@@ -20,7 +20,7 @@ namespace Cours06_ConstantesModulo
 
             if (THEORIE_ACTIF) // false
             {
-                Console.WriteLine("Entrer un nombre entier : ");
+                Console.Write("Entrer un nombre entier : ");
                 string entreeNombreEntier = Console.ReadLine();
                 // int entier = int.Parse(entreeNombreEntier);
 
@@ -44,7 +44,7 @@ namespace Cours06_ConstantesModulo
                     Console.WriteLine("Le nombre est invalide");
                 }
 
-                Console.WriteLine("Entrer un nombre virgule : ");
+                Console.Write("\nEntrer un nombre virgule : ");
                 string entreeNombreVirgule = Console.ReadLine();
                 // double virgule = double.Parse(entreeNombreVirgule, CultureInfo.InvariantCulture);
 
