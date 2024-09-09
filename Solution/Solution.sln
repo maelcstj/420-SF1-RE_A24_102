@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cours02_GitSyntaxe", "Cours
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cours03_EntreesSorties", "Cours03_EntreesSorties\Cours03_EntreesSorties.csproj", "{02DB3870-2E4D-4F45-9B09-97808957F060}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cours04_BooleensIfElse", "Cours04_BooleensIfElse\Cours04_BooleensIfElse.csproj", "{E1AD025A-7893-4DD7-ACBA-D4462EC1CC6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cours04_BooleensIfElse", "Cours04_BooleensIfElse\Cours04_BooleensIfElse.csproj", "{E1AD025A-7893-4DD7-ACBA-D4462EC1CC6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cours05_ScopeSwitch", "Cours05_ScopeSwitch\Cours05_ScopeSwitch.csproj", "{F99E0EE9-F061-4E0C-A3CF-00DA80226B5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cours05_ScopeSwitch", "Cours05_ScopeSwitch\Cours05_ScopeSwitch.csproj", "{F99E0EE9-F061-4E0C-A3CF-00DA80226B5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cours06_ConstantesModulo", "Cours06_ConstantesModulo\Cours06_ConstantesModulo.csproj", "{7D321E3F-8FD1-4A86-9B3A-EA506C6FAE0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F99E0EE9-F061-4E0C-A3CF-00DA80226B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F99E0EE9-F061-4E0C-A3CF-00DA80226B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F99E0EE9-F061-4E0C-A3CF-00DA80226B5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D321E3F-8FD1-4A86-9B3A-EA506C6FAE0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D321E3F-8FD1-4A86-9B3A-EA506C6FAE0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D321E3F-8FD1-4A86-9B3A-EA506C6FAE0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D321E3F-8FD1-4A86-9B3A-EA506C6FAE0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
