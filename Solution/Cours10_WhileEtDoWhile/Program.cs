@@ -10,8 +10,8 @@
             {
                 string chaine = "";
 
-                string lettre = ""; // Initialiser
-                while (lettre != "-1") //Effectuée 0+ fois
+                string lettre = ""; // Initialiser pour condition du while soit true
+                while (lettre != "-1") //Effectué 0+ fois
                 {
                     Console.Write("Entrer lettre : ");
                     lettre = Console.ReadLine();
@@ -43,7 +43,10 @@
                 Console.WriteLine($"La chaine est : {chaine}");
             }
 
-            // Exercices ...
+            // Exercice 1
+            // TODO: lire une entrée
+            // TODO: quitter si entrée est Q / q
+
         }
     }
 }

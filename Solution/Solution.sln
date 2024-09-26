@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cours05_ScopeSwitch", "Cour
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cours06_ConstantesModulo", "Cours06_ConstantesModulo\Cours06_ConstantesModulo.csproj", "{7D321E3F-8FD1-4A86-9B3A-EA506C6FAE0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cours10_WhileEtDoWhile", "Cours10_WhileEtDoWhile\Cours10_WhileEtDoWhile.csproj", "{21931F92-F37C-41B0-AA43-ADAC2CCCCB3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cours10_WhileEtDoWhile", "Cours10_WhileEtDoWhile\Cours10_WhileEtDoWhile.csproj", "{21931F92-F37C-41B0-AA43-ADAC2CCCCB3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cours11_IncrementationFor", "Cours11_IncrementationFor\Cours11_IncrementationFor.csproj", "{EC56372A-3F30-4D05-ABC6-4E2D4ABF5EF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{21931F92-F37C-41B0-AA43-ADAC2CCCCB3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21931F92-F37C-41B0-AA43-ADAC2CCCCB3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21931F92-F37C-41B0-AA43-ADAC2CCCCB3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC56372A-3F30-4D05-ABC6-4E2D4ABF5EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC56372A-3F30-4D05-ABC6-4E2D4ABF5EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC56372A-3F30-4D05-ABC6-4E2D4ABF5EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC56372A-3F30-4D05-ABC6-4E2D4ABF5EF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
