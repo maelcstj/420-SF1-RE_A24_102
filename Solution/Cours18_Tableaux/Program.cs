@@ -34,11 +34,11 @@ namespace Cours18_Tableaux
 
                 int[] points = new int[MAX_JOUEURS] 
                 {
-                    10,
-                    20,
-                    30,
-                    40,
-                    50,
+                    10, // 0
+                    20, // 1
+                    30, // 2
+                    40, // 3
+                    50, // 4
                 };
 
                 // Index -1 ou taille du tableau causent un crash!
