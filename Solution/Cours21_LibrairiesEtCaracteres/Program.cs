@@ -41,9 +41,9 @@ namespace Cours21_LibrairiesEtCaracteres
             double max = Math.Max(16, -2); // 16
 
             // double nombreEntreMinMax = Math.Clamp(nombre, min, max); // [min, max]
-            double nombreEntreMinMax1 = Math.Clamp(258748, 0, 100); // [0, 100] => 100
-            double nombreEntreMinMax2 = Math.Clamp(-154, 0, 100); // [0, 100] => 0
-            double nombreEntreMinMax3 = Math.Clamp(25, 0, 100); // [0, 100] => 25
+            double nombreEntreMinMax1 = Math.Clamp(158, 0, 100);        // [0, 100] => 100
+            double nombreEntreMinMax2 = Math.Clamp(-154, 0, 100);       // [0, 100] => 0
+            double nombreEntreMinMax3 = Math.Clamp(25, 0, 100);         // [0, 100] => 25
 
             // int entierInferieur = (int)Math.Floor(nombreVirgule);
             double doubleInferieur = Math.Floor(5.999999999);       // 5
@@ -73,20 +73,20 @@ namespace Cours21_LibrairiesEtCaracteres
 
             // --- Calculs scientifiques --- 
             // double puissance = Math.Pow(nombre, exposant);
-            double puissance = Math.Pow(2, 8); // 2^8
-            double puissance2 = Math.Pow(3, 4); // 3^4
+            double puissance = Math.Pow(2, 8);      // 2^8
+            double puissance2 = Math.Pow(3, 4);     // 3^4
 
-            double puissance3 = Math.Pow(2, -10); // 2^-10 = 1 / (2^10)
+            double puissance3 = Math.Pow(2, -10);   // 2^-10 = 1 / (2^10)
 
             // double racineCarree = Math.Sqrt(nombre);
-            double racineCarree = Math.Sqrt(100); // 10
+            double racineCarree = Math.Sqrt(100);   // 10
 
             // double racineCubique = Math.Cbrt(nombre);
-            double racineCubique = Math.Cbrt(8); // 2 (2 * 2 * 2)
+            double racineCubique = Math.Cbrt(8);    // 2 (2 * 2 * 2)
 
             // double racineApproximee = Math.Pow(nombre, 1 / radical);
-            double racineErreur = Math.Pow(16, 1 / 4); // 1 / 4 = 0 reste 1 = 0 => 16^0
-            double racineQuadratique = Math.Pow(16, 1 / 4.0); // 2 (2 * 2 * 2 * 2) => 16^0.25 = 16 radical 4
+            double racineErreur = Math.Pow(16, 1 / 4);          // 1 / 4 = 0 reste 1 = 0 => 16^0
+            double racineQuadratique = Math.Pow(16, 1 / 4.0);   // 2 (2 * 2 * 2 * 2) => 16^0.25 = 16 radical 4
 
             // double ln = Math.Log(nombre); // Log e = ln
             double ln = Math.Log(100);
@@ -99,7 +99,7 @@ namespace Cours21_LibrairiesEtCaracteres
             // double log10 = Math.Log10(nombre);
             double log10 = Math.Log10(100);
 
-            // double ePuissance = Math.Exp(nombre); // Inverse de Math.Log
+            // double ePuissance = Math.Exp(nombre); // e^nombre, inverse de Math.Log
             double exp1 = Math.Exp(Math.Log(100));
 
             // --- Calcul des angles en radians --- 
@@ -129,12 +129,12 @@ namespace Cours21_LibrairiesEtCaracteres
             Random randomPredefini1 = new Random(12345678);
             Random randomPredefini2 = new Random(12345678);
 
-            //int entierAleatoire = random.Next(min, max);  // [min, max[
-            int entierAleatoire = random.Next(20, 30);  // [20, 30[
-            Console.WriteLine(entierAleatoire); // seed aléatoire donc nombre aléatoire
+            //int entierAleatoire = random.Next(min, max);      // [min, max[
+            int entierAleatoire = random.Next(20, 30);          // [20, 30[
+            Console.WriteLine(entierAleatoire);                 // seed aléatoire donc nombre aléatoire
 
-            int entierPredefini = randomPredefini1.Next(20, 30);  // [20, 30[
-            Console.WriteLine(entierPredefini); // 24 comme premier entier pour seed 12345678
+            int entierPredefini = randomPredefini1.Next(20, 30);    // [20, 30[
+            Console.WriteLine(entierPredefini);                     // 24 comme premier entier pour seed 12345678
 
             List<int> entiersAleatoires = new List<int>();
             for (int i = 0; i < 10; i++)
@@ -145,7 +145,7 @@ namespace Cours21_LibrairiesEtCaracteres
                 Console.Write($"{entierAleatoire1A100} ");
             }
 
-            double doubleAleatoire = random.NextDouble();   // [0, 1[
+            double doubleAleatoire = random.NextDouble();       // [0, 1[
 
             // double doubleMax = max * random.NextDouble();    // [0, max[
             double doubleMax1 = 8.5 * random.NextDouble();      // [0, 8.5[
